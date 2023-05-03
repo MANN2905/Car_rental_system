@@ -11,6 +11,7 @@ class Car:
     def rent(self, num_days):
         self.is_rented = True
         self.rental_duration = num_days
+        #########
 
 class XUV(Car):
     category="XUV's"
